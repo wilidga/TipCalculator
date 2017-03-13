@@ -1,5 +1,5 @@
 package com.serproinfor.develop.tipcalculator;
-//wilidga
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
