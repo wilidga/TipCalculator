@@ -63,7 +63,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/colorBlue"
             android:src="@drawable/emoticon_sad"
-            />
+            android:contentDescription=""
+            tools:ignore="ContentDescription" />
 
         <ImageButton
             android:id="@+id/ibGoodService"
@@ -72,7 +73,7 @@
             android:layout_weight="1"
             android:backgroundTint="@color/colorBlue"
             android:src="@drawable/emoticon_happy"
-            />
+            tools:ignore="ContentDescription" />
 
         <ImageButton
             android:id="@+id/ibExcellentService"
@@ -81,7 +82,7 @@
             android:layout_weight="1"
             android:backgroundTint="@color/colorBlue"
             android:src="@drawable/emoticon"
-            />
+            tools:ignore="ContentDescription" />
 
 
 
